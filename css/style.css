@@ -761,6 +761,10 @@ body {
         font-size: 24px;
     }
 
+    .hero {
+        background-size: 586px;
+    }
+
     .hero__title,
     .about__title,
     .your-brand__title {
