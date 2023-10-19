@@ -197,7 +197,7 @@ body {
 /* Hero */
 
 .hero {
-    background-image: url('./media/main__pic/hero/vector__bg.svg');
+    background-image: url('../media/main__pic/hero/vector__bg.svg');
     background-position: right 0 bottom 0;
     background-repeat: no-repeat;
     background-size: 40.69%
@@ -205,7 +205,7 @@ body {
 
 .hero__wrap {
     padding: 82px 50px 140px;
-    background-image: url('./media/main__pic/hero/hero__pic.png');
+    background-image: url('../media/main__pic/hero/hero__pic.png');
     background-position: right 16px bottom 0;
     background-repeat: no-repeat;
     background-size: 37.19%;
@@ -233,7 +233,7 @@ body {
 
 .about {
     padding: 100px 0 36px;
-    background-image: url('./media/decorate/about/about__bg__decor.png');
+    background-image: url('../media/decorate/about/about__bg__decor.png');
     background-repeat: no-repeat;
     background-position: left 0 bottom 0;
 }
@@ -270,7 +270,7 @@ body {
     left: -2%;
     right: -5%;
     bottom: -12%;
-    background-image: url('./media/decorate/about/text__ellipse.png');
+    background-image: url('../media/decorate/about/text__ellipse.png');
     background-repeat: no-repeat;
     background-size: contain
 }
@@ -293,25 +293,25 @@ body {
 }
 
 .about__item:nth-child(1) {
-    background-image: url('./media/decorate/about/list-decor__star.svg');
+    background-image: url('../media/decorate/about/list-decor__star.svg');
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 
 .about__item:nth-child(2) {
-    background-image: url('./media/decorate/about/list-decor__arrow.svg');
+    background-image: url('../media/decorate/about/list-decor__arrow.svg');
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 
 .about__item:nth-child(3) {
-    background-image: url('./media/decorate/about/list-decor__line.svg');
+    background-image: url('../media/decorate/about/list-decor__line.svg');
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 
 .about__item:nth-child(4) {
-    background-image: url('./media/decorate/about/list-decor__chain.svg');
+    background-image: url('../media/decorate/about/list-decor__chain.svg');
     background-repeat: no-repeat;
     background-position: 0 0;
 }
@@ -436,7 +436,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('./media/decorate/how-work/phone.png');
+    background-image: url('../media/decorate/how-work/phone.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -502,7 +502,7 @@ body {
     bottom: -8%;
     left: -3.7%;
     right: -4%;
-    background-image: url('./media/decorate/why__budss/text__decor.png');
+    background-image: url('../media/decorate/why__budss/text__decor.png');
 }
 
 .why-buds__list {
@@ -521,25 +521,25 @@ body {
 }
 
 .why-buds__item:nth-child(1) {
-    background-image: url('./media/decorate/why__budss/star.svg'), url('./media/decorate/why__budss/star.svg'), url('./media/decorate/why__budss/phone.svg'), url('./media/decorate/why__budss/purple__line.svg');
+    background-image: url('../media/decorate/why__budss/star.svg'), url('../media/decorate/why__budss/star.svg'), url('../media/decorate/why__budss/phone.svg'), url('../media/decorate/why__budss/purple__line.svg');
     background-size: 3.4%, 5.5%, 36%, contain;
     background-position: left 34.4% top 11%, left 30.5% top 20%, left 3% bottom 0, left 0;
 }
 
 .why-buds__item:nth-child(2) {
-    background-image: url('./media/decorate/why__budss/green__bag.svg'), url('./media/decorate/why__budss/orange__bag.svg'), url('./media/decorate/why__budss/purple__bag.svg');
+    background-image: url('../media/decorate/why__budss/green__bag.svg'), url('../media/decorate/why__budss/orange__bag.svg'), url('../media/decorate/why__budss/purple__bag.svg');
     background-size: 13.16%, 17%, 16.1%;
     background-position: left 15.2% bottom 0, right 13.2% bottom 0, right 0 bottom 59%;
 }
 
 .why-buds__item:nth-child(3) {
-    background-image: url('./media/decorate/why__budss/green__man.svg');
+    background-image: url('../media/decorate/why__budss/green__man.svg');
     background-size: 37%;
     background-position: bottom 0 right 0;
 }
 
 .why-buds__item:nth-child(4) {
-    background-image: url('./media/decorate/why__budss/purple__man.svg');
+    background-image: url('../media/decorate/why__budss/purple__man.svg');
     background-size: 28.8%;
     background-position: bottom 0 right 8.2%;
 }
@@ -653,22 +653,22 @@ body {
 }
 
 .social__item:nth-child(1) .social__link {
-    background-image: url('./media/decorate/your__brand/Facebook.svg');
+    background-image: url('../media/decorate/your__brand/Facebook.svg');
 
 }
 
 .social__item:nth-child(2) .social__link {
-    background-image: url('./media/decorate/your__brand/Twitter.svg');
+    background-image: url('../media/decorate/your__brand/Twitter.svg');
 
 }
 
 .social__item:nth-child(3) .social__link {
-    background-image: url('./media/decorate/your__brand/Instagram.svg');
+    background-image: url('../media/decorate/your__brand/Instagram.svg');
 
 }
 
 .social__item:nth-child(4) .social__link {
-    background-image: url('./media/decorate/your__brand/TikTok.svg');
+    background-image: url('../media/decorate/your__brand/TikTok.svg');
 
 }
 
@@ -859,7 +859,7 @@ body {
     }
 
     .why-buds__item:nth-child(2) {
-        background-image: url('./media/decorate/why__budss/green__bag.svg'), url('./media/decorate/why__budss/orange__bag.svg'), url('./media/decorate/why__budss/purple__bag.svg');
+        background-image: url('../media/decorate/why__budss/green__bag.svg'), url('../media/decorate/why__budss/orange__bag.svg'), url('../media/decorate/why__budss/purple__bag.svg');
         background-size: 13.16%, 17%, 12%;
         background-position: left 67.2% bottom 0, right 13.2% bottom 0, right 0 bottom 59%;
     }
@@ -1020,13 +1020,13 @@ body {
     }
 
     .why-buds__item:nth-child(1) {
-        background-image: url('./media/decorate/why__budss/star.svg'), url('./media/decorate/why__budss/star.svg'), url('./media/decorate/why__budss/576px/phone.svg'), url('./media/decorate/why__budss/576px/purple__line.svg');
+        background-image: url('../media/decorate/why__budss/star.svg'), url('../media/decorate/why__budss/star.svg'), url('../media/decorate/why__budss/576px/phone.svg'), url('../media/decorate/why__budss/576px/purple__line.svg');
         background-size: 3.4%, 5.5%, 46%, 44%;
         background-position: left 47% bottom 42%, left 42% bottom 36%, left 3% bottom 0, left 0 bottom 0;
     }
 
     .why-buds__item:nth-child(2) {
-        background-image: url('./media/decorate/why__budss/green__bag.svg'), url('./media/decorate/why__budss/orange__bag.svg'), url('./media/decorate/why__budss/purple__bag.svg');
+        background-image: url('../media/decorate/why__budss/green__bag.svg'), url('../media/decorate/why__budss/orange__bag.svg'), url('../media/decorate/why__budss/purple__bag.svg');
         background-size: 16%, 19%, 12%;
         background-position: left 5% bottom 0, left 45% bottom 0, right 0 bottom 10%;
     }
@@ -1076,13 +1076,13 @@ body {
     }
 
     .hero {
-        background-image: url('./media/main__pic/hero/Vector__bg-mobile.svg');
+        background-image: url('../media/main__pic/hero/Vector__bg-mobile.svg');
         background-size: 86.1%;
     }
 
     .hero__wrap {
         padding-bottom: 396px;
-        background-image: url('./media/main__pic/hero/hero__mobile.png');
+        background-image: url('../media/main__pic/hero/hero__mobile.png');
         background-size: 62%;
         background-position: bottom 0 left 50%;
     }
