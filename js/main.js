@@ -4,8 +4,18 @@
         const footerItems = document.querySelectorAll('.footer__bot-item');
         const footerTopList = document.querySelector('.footer__left .footer__list');
         const footerBotList = document.querySelector('.footer__bot .footer__list');
-        const mediaQuery = window.matchMedia('(max-width: 575px)');
-        mediaQuery.addEventListener('change', (e) => {
+        const mql = window.matchMedia('(max-width: 575px)');
+        
+        if (mql.matches) {
+            for (const item of footerItems) {
+                if (!item.classList.contains('done')) {
+                    footerTopList.append(item);
+                    item.classList.add('done');
+                }
+            }
+        }
+        
+        mql.addEventListener('change', (e) => {
             if (e.matches) {
                 for (const item of footerItems) {
                     if (!item.classList.contains('done')) {
