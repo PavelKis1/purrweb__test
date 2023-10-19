@@ -197,7 +197,7 @@ body {
 /* Hero */
 
 .hero {
-    background-image: url('../media/main__pic/hero/vector__bg.svg');
+    background-image: url('../media/mainPic/hero/vector__bg.svg');
     background-position: right 0 bottom 0;
     background-repeat: no-repeat;
     background-size: 40.69%
@@ -205,7 +205,7 @@ body {
 
 .hero__wrap {
     padding: 82px 50px 140px;
-    background-image: url('../media/main__pic/hero/hero__pic.png');
+    background-image: url('../media/mainPic/hero/hero__pic.png');
     background-position: right 16px bottom 0;
     background-repeat: no-repeat;
     background-size: 37.19%;
@@ -1076,13 +1076,13 @@ body {
     }
 
     .hero {
-        background-image: url('../media/main__pic/hero/Vector__bg-mobile.svg');
+        background-image: url('../media/mainPic/hero/Vector__bg-mobile.svg');
         background-size: 86.1%;
     }
 
     .hero__wrap {
         padding-bottom: 396px;
-        background-image: url('../media/main__pic/hero/hero__mobile.png');
+        background-image: url('../media/mainPic/hero/hero__mobile.png');
         background-size: 62%;
         background-position: bottom 0 left 50%;
     }
