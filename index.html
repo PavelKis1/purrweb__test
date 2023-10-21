@@ -17,6 +17,103 @@
 </head>
 
 <body>
+    <div class="modal__box">
+        <div class="modal">
+            <button class="close__modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                        d="M9.99978 10L13.5353 13.5355M6.46424 13.5355L9.99978 10L6.46424 13.5355ZM13.5353 6.46447L9.99978 10L13.5353 6.46447ZM9.99978 10L6.46424 6.46447L9.99978 10Z"
+                        stroke="#B9B9B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <form class="modal__form">
+                <div class="modal__input-wrap">
+                    <label class="modal__label">
+                        <span class="modal__input-name">
+                            Name <em class="star__decorate">*</em>
+                        </span>
+                        <input class="modal__input modal__required" type="text" name="name" placeholder="Enter name">
+                    </label>
+                    <label class="modal__label">
+                        <span class="modal__input-name">
+                            Email <em class="star__decorate">*</em>
+                        </span>
+                        <input class="modal__input modal__required" type="text" name="email" placeholder="Enter email">
+                    </label>
+                    <label class="modal__label">
+                        <span class="modal__input-name">
+                            Phone Number <em class="star__decorate">*</em>
+                        </span>
+                        <input class="modal__input modal__required" type="tel" name="phone" placeholder="">
+                    </label>
+                    <label class="modal__label">
+                        <span class="modal__input-name">
+                            Company
+                        </span>
+                        <input class="modal__input" type="text" name="company" placeholder="Enter company">
+                    </label>
+                    <label class="modal__label">
+                        <span class="modal__input-name">
+                            Website/Store URL
+                        </span>
+                        <input class="modal__input" type="text" name="url" placeholder="Enter Website/Store URL">
+                    </label>
+                </div>
+                <p class="modal__descr">
+                    By submitting this form you are agreeing to Budss’s
+                    <a href="#" class="modal__link">Privacy Policy</a>
+                    and
+                    <a href="#" class="modal__link">Terms of Use</a>
+                </p>
+                <button class="btn modal__btn btn--disable" type="submit">
+                    <span>Contact sales</span>
+                </button>
+            </form>
+        </div>
+        <div class="modal-success">
+            <div class="modal__wrap">
+                <button class="close__modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path
+                            d="M9.99978 10L13.5353 13.5355M6.46424 13.5355L9.99978 10L6.46424 13.5355ZM13.5353 6.46447L9.99978 10L13.5353 6.46447ZM9.99978 10L6.46424 6.46447L9.99978 10Z"
+                            stroke="#B9B9B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <svg class="modal-success__icon" width="229" height="179" viewBox="0 0 229 179" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.7" d="M109.185 73.8577H128.118" stroke="#A64CED" stroke-width="113.807"
+                        stroke-linecap="round" />
+                    <path d="M132.055 49.1553C131.084 52.3641 123.988 56.1644 119.625 54.0242" stroke="black"
+                        stroke-width="1.54209" stroke-linecap="round" stroke-linejoin="round" />
+                    <ellipse cx="106.818" cy="45.8803" rx="2.36669" ry="2.37098" fill="black" />
+                    <ellipse cx="126.698" cy="42.0866" rx="2.36669" ry="2.37098" fill="black" />
+                    <path
+                        d="M118.741 129.053L108.765 176.569H75.5623L80.3952 172.49C82.1706 170.992 83.3342 168.893 83.6653 166.594L89.3329 127.222"
+                        stroke="black" stroke-width="1.54209" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M118.741 129.053V176.569H151.896L148.075 173.34C145.719 171.348 144.479 168.336 144.75 165.263L148.107 127.222"
+                        stroke="black" stroke-width="1.54209" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M32.0122 43.9909C46.508 44.0164 46.0961 53.83 30.2721 50.055C34.9038 51.3501 41.9495 52.8333 39.7904 56.4698C37.6312 60.1063 29.3113 56.2307 29.3113 56.2307C35.1855 59.4401 36.7195 61.8696 34.6927 63.6311C33.8067 64.4011 32.2947 64.7029 30.5386 64.5631M72.2469 62.9284C53.3004 72.051 48.6641 57.8126 47.1792 50.9706C45.6943 44.1287 50.8532 24.4676 44.2711 23.4823C38.9775 22.6898 37.3308 29.4094 37.7445 39.9194C34.8234 38.5538 21.7024 38.5674 18.7858 50.145C16.5557 58.9972 24.8347 64.1091 30.5386 64.5631M68.8938 86.5258C52.2388 90.1368 36.6894 84.5938 30.5386 64.5631"
+                        stroke="black" stroke-width="1.54209" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M159.361 87.6497C163.846 90.2972 166.616 90.9397 172.107 90.274C167.318 93.2016 165.166 94.9784 162.656 98.475M168.45 58.0388C178.437 60.9185 198.314 70.2555 197.929 84.5657C197.662 94.5065 190.44 101.407 183.591 105.437M165.134 116.686C169.348 119.99 178.9 125.209 183.391 119.649C185.101 117.531 185.007 115.671 183.984 114.112M183.591 105.437C180.58 107.208 177.641 108.425 175.397 109.102C178.205 109.844 182.321 111.579 183.984 114.112M183.591 105.437C188.633 107.294 187.573 112.895 183.984 114.112"
+                        stroke="black" stroke-width="1.54209" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <h2 class="modal-success__title">
+                    Thank you!
+                </h2>
+                <p class="modal-success__descr">
+                    Thank you, we have received your application and will contact you soon!
+                </p>
+                <button class="btn modal-success__btn close__modal">
+                    <span>Super!</span>
+                </button>
+
+            </div>
+        </div>
+    </div>
     <div class="select">
         <div class="container">
             <div class="select__wrap">
@@ -35,9 +132,39 @@
                 <a href="#" class="header__link">
                     <img class="logo" src="./media/icons/budss__logo.svg" alt="Budss">
                 </a>
-                <button class="btn header__btn">
-                    <span>Contact sales</span>
-                </button>
+
+                <nav class="burger__nav">
+                    <button class="btn header__btn">
+                        <span>Contact sales</span>
+                    </button>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                For Business
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                For Customers
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Terms Of Use - Seller
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Terms of Use - Sellers & Customers
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
                 <div class="burger">
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
@@ -121,7 +248,8 @@
         <section class="how-works">
             <div class="how-works__wrap">
                 <div class="how-works__phone">
-                    <video autoplay loop muted class="how-works__video" src="./media/video/how-works__video.webm"></video>
+                    <video autoplay loop muted class="how-works__video"
+                        src="./media/video/how-works__video.webm"></video>
                 </div>
                 <div class="how-works__anim-box">
                     <div class="anim__line">
